@@ -2,9 +2,9 @@ import numpy as np
 import pandas as pd
 
 # DataFrames: Pandas DataFrames is two_dimensional, size_mutable, potentially heterogenueous tabluar data structure with labeled axes (row & columns)
-# data= np.random.randint(1,13,(3,4))
-# df1 = pd.DataFrame(data)
-# print(df1)
+data= np.random.randint(1,13,(3,4))
+df1 = pd.DataFrame(data)
+print(df1)
 # df=pd.DataFrame(data,index=["A","B","C"],columns=[11,22,33,44])
 # print(df)
 # df2=pd.DataFrame([[1,2,3],[2,3,5]],columns=["a","b","c"])
